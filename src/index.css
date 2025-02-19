@@ -1,0 +1,54 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --bg-color: #1f1b1d;
+  --bg-color-two: #993808;
+  --header-color: #ffa500;
+  --sd-bar: #ffd700;
+  
+}
+
+body {
+  background-color: var(--bg-color);
+  font-family: "Quattrocento Sans", serif;
+  background: var(--bg-color);
+  transition: .3s;
+}
+
+.bg_inner_color {
+  background-color: var(--bg-color);
+}
+
+.ft_hd {
+  font-family: "Quattrocento", serif;
+  font-weight: 900;
+}
+
+
+.divider {
+  background-color: transparent;
+  width: 100%;
+  height: 10px;
+  background-image: radial-gradient(transparent 1px, var(--token-f32baa44-90b8-42a5-8bca-ffba9d95b23a, #ffffff) 1px);
+  background-size: 4px 4px;
+  backdrop-filter: blur(3px);
+  mask: linear-gradient(rgb(0, 0, 0) 60%, rgba(0, 0, 0, 0) 100%);
+  opacity: 1;
+  /* : 40px; */
+}
+
+.badge {
+  
+  font-size: 0.9em;
+  font-weight: 700;
+  border-radius: 1rem;
+  display: inline-block;
+  padding: 0.65em 0.75em;
+  line-height: 1;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: baseline;
+  background-color: transparent;
+}
