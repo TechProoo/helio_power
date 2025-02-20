@@ -10,24 +10,23 @@ import ScrollReveal from "scrollreveal";
 import { useEffect } from "react";
 
 const Info = () => {
-
   useGSAP(() => {
     gsap.from(".info_paragraph", {
       scrollTrigger: ".info_paragraph",
       x: -50,
       duration: 1,
-      opacity: 0
+      opacity: 0,
     });
   });
 
-    useEffect(() => {
-      ScrollReveal().reveal(".ask_services", {
-        duration: 2000,
-        distance: "200px",
-        origin: "bottom",
-        delay: 400,
-      });
-    }, []);
+  useEffect(() => {
+    ScrollReveal().reveal(".ask_services", {
+      duration: 2000,
+      distance: "200px",
+      origin: "bottom",
+      delay: 400,
+    });
+  }, []);
 
   return (
     <div className="info_cover mt-5 relative">
@@ -45,9 +44,19 @@ const Info = () => {
         </div>
         <div className="card_holder relative d-md-flex justify-content- gap-4">
           <div className="absolute inset-0 w-10 left-0 rounded-full display-md-none"></div>
-          <Card />
-          <Card />
-          <Card />
+          <Card
+            topic="Efficient Solar Panels"
+            body="Our solar panels deliver maximum efficiency ensuring you get the most
+            out of every ray of sunshine"
+          />
+          <Card
+            topic="Reliable Energy Storage"
+            body="Our advanced battery solutions ensure uninterrupted power supply, storing solar energy efficiently for use anytime."
+          />
+          <Card
+            topic="Smart Inverter Technology"
+            body="Optimize energy consumption with our intelligent inverters that seamlessly convert and regulate solar power for maximum efficiency."
+          />
         </div>
       </div>
       <div className="services_intro text-center mt-20">

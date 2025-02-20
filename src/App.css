@@ -305,11 +305,17 @@
   position: relative;
   height: 270px;
   width: 220px;
+  overflow: scroll;
   border: 1px solid var(--text-color);
   border-radius: 20px;
   background-color: #1f1b1d2f;
   transition: 0.5s;
 }
+
+.card::-webkit-scrollbar {
+  display: none;
+}
+
 
 .card:nth-child(3) {
   background-color: rgba(2, 0, 36, 1);
