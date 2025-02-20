@@ -51,11 +51,11 @@ const Info = () => {
           />
           <Card
             topic="Reliable Energy Storage"
-            body="Our advanced battery solutions ensure uninterrupted power supply, storing solar energy efficiently for use anytime."
+            body="Our batteries store solar energy efficiently, ensuring uninterrupted power anytime."
           />
           <Card
-            topic="Smart Inverter Technology"
-            body="Optimize energy consumption with our intelligent inverters that seamlessly convert and regulate solar power for maximum efficiency."
+            topic="Smart Inverter Tech"
+            body="Optimize energy use with intelligent inverters that efficiently convert and regulate solar power."
           />
         </div>
       </div>

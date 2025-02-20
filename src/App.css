@@ -305,7 +305,7 @@
   position: relative;
   height: 270px;
   width: 220px;
-  overflow: scroll;
+  /* overflow: scroll; */
   border: 1px solid var(--text-color);
   border-radius: 20px;
   background-color: #1f1b1d2f;
@@ -1380,7 +1380,7 @@ footer {
   }
 
   .card_header h1 {
-    font-size: 30px;
+    font-size: 25px;
   }
 
   .card_body p {
@@ -1536,6 +1536,10 @@ footer {
 
   .contact_page_form_right form {
     width: 100%;
+  }
+
+  .bf {
+    margin-top: 15px;
   }
 }
 

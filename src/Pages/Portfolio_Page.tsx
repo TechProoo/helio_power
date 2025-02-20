@@ -192,7 +192,7 @@ const Portfolio_Page: React.FC = () => {
                         </div>
                       </div>
                       <div className="col-md-8">
-                        <div className="row g-4">
+                        <div className="row g-4 bf">
                           <div className="col-12">
                             <div
                               className="image_fit"
@@ -372,7 +372,6 @@ const Portfolio_Page: React.FC = () => {
                     </div>
                   </TabPanel>
                 </Box>
-
                 <Box
                   sx={{
                     borderTop: 1,
@@ -384,10 +383,18 @@ const Portfolio_Page: React.FC = () => {
                   <TabList
                     onChange={handleChange}
                     aria-label="lab API tabs example"
+                    sx={{
+                      "& .MuiTab-root": { color: "white" }, // Default tab color
+                      "& .Mui-selected": {
+                        color: "#FFA500",
+                        fontWeight: "bold",
+                      }, // Active tab color
+                      "& .MuiTabs-indicator": { backgroundColor: "#FFA500" }, // Indicator color
+                    }}
                   >
                     <Tab label="Solar Installations" value="1" />
                     <Tab label="Electricals" value="2" />
-                    <Tab label="Pluming Works" value="3" />
+                    <Tab label="Plumbing Works" value="3" />
                   </TabList>
                 </Box>
               </TabContext>
