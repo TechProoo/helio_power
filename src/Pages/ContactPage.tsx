@@ -152,7 +152,7 @@ const ContactPage = () => {
                 </div>
                 <div>
                   <h1>E-Mail</h1>
-                  <p>info@universityofibadan.edu.ng</p>
+                  <p>judeakanf@gmail.com</p>
                 </div>
               </div>
             </div>
