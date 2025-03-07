@@ -13,7 +13,7 @@ interface NavbarProps {
   color: string;
 }
 
-const navItems = [
+const navItems = [ 
   { name: "Home", path: "/" },
   { name: "Services", path: "/services" },
   { name: "Portfolio", path: "/portfolio" },
@@ -39,12 +39,12 @@ const Navbar: React.FC<NavbarProps> = ({ color }) => {
           <div className="logo_img">
             <img src={Logo} alt="Helio Power Logo" />
           </div>
-          <b className="logo_name ft_hd pt-2">
+          {/* <b className="logo_name ft_hd pt-2">
             Helio
             <span className="logo_subName" style={{ color }}>
               Power
             </span>
-          </b>
+          </b> */}
         </div>
         <div className="nav_links flex gap-4 flex-col">
           {navItems.map((item) => (

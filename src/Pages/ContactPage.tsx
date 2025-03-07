@@ -204,20 +204,6 @@ const ContactPage = () => {
           </div>
         </div>
       </div>
-      {/* Uncomment and adjust the map section as needed */}
-      {/* <div className="map_cov mt-5">
-        <div className="col-md-10 m-auto">
-          <iframe
-            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d31715.856411458786!2d3.3672932607276005!3d6.460445849429501!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x103bf4cc9b07cf55%3A0xc4ae10b395418b9b!2sLagos%20Island!5e0!3m2!1sen!2sng!4v1739901246880!5m2!1sen!2sng"
-            width="100%"
-            height="450"
-            style={{ borderRadius: "30px" }}
-            allowFullScreen
-            loading="lazy"
-            referrerPolicy="no-referrer-when-downgrade"
-          ></iframe>
-        </div>
-      </div> */}
       <Footer />
     </div>
   );

@@ -1,5 +1,5 @@
 import Card from "./Card";
-import Brand from "../Image/solar_full.webp";
+import Brand from "../Image/solar_full.jpg";
 import doit from "../Image/wedoit.jpeg";
 import Down from "../Image/down.png";
 import gsap from "gsap";

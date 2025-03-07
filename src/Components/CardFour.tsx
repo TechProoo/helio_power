@@ -1,4 +1,4 @@
-import Image from "../Image/pref.webp";
+import Image from "../Image/a5.jpg";
 const CardFour = () => {
   return (
     <div className="card_four">

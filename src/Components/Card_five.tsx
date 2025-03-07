@@ -1,4 +1,4 @@
-import Image from "../Image/sert.webp";
+import Image from "../Image/a6.jpg";
 const Card_five = () => {
   return (
     <div className="card_five">

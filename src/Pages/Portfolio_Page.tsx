@@ -22,12 +22,27 @@ import Image13 from "../Image/IMG-20250218-WA0044.jpg";
 import Image15 from "../Image/IMG-20250218-WA0045.jpg";
 import Image16 from "../Image/IMG-20250218-WA0046.jpg";
 import Image17 from "../Image/IMG-20250218-WA0049.jpg";
-// import Image18 from "../Image/IMG-20250218-WA0048.jpg";
-import Img from "../Image/1.jpg";
-import Img1 from "../Image/2.jpg";
-import Img2 from "../Image/3.jpg";
-import Img3 from "../Image/4.jpg";
-import Img4 from "../Image/5.jpg";
+import new1 from "../Image/a1.jpg";
+import new2 from "../Image/a2.jpg";
+import new3 from "../Image/a3.jpg";
+import new4 from "../Image/a4.jpg";
+import new5 from "../Image/a5.jpg";
+import new6 from "../Image/a6.jpg";
+import new7 from "../Image/a7.jpg";
+import new8 from "../Image/a8.jpg";
+import new9 from "../Image/a9.jpg";
+import new10 from "../Image/a10.jpg";
+import new11 from "../Image/a11.jpg";
+import new12 from "../Image/a12.jpg";
+import new13 from "../Image/a13.jpg";
+import new14 from "../Image/a14.jpg";
+import new15 from "../Image/a15.jpg";
+import new16 from "../Image/a16.jpg";
+import new17 from "../Image/a17.jpg";
+import new18 from "../Image/a18.jpg";
+import new19 from "../Image/a19.jpg";
+import new20 from "../Image/a20.jpg";
+
 import Typed from "typed.js";
 import Solar from "../Image/solarLink.jpg";
 import Footer from "../Components/Footer";
@@ -392,9 +407,9 @@ const Portfolio_Page: React.FC = () => {
                       "& .MuiTabs-indicator": { backgroundColor: "#FFA500" }, // Indicator color
                     }}
                   >
-                    <Tab label="Solar Installations" value="1" />
-                    <Tab label="Electricals" value="2" />
-                    <Tab label="Plumbing Works" value="3" />
+                    <Tab label="Exhibition 1" value="1" />
+                    <Tab label="Exhibition 2" value="2" />
+                    <Tab label="Exhibition 3" value="3" />
                   </TabList>
                 </Box>
               </TabContext>
@@ -421,7 +436,7 @@ const Portfolio_Page: React.FC = () => {
                       style={{
                         borderRadius: "0",
                         height: "220px",
-                        backgroundImage: `url(${Img})`,
+                        backgroundImage: `url(${new6})`,
                       }}
                     ></div>
                     <div
@@ -429,7 +444,7 @@ const Portfolio_Page: React.FC = () => {
                       style={{
                         borderRadius: "0",
                         height: "220px",
-                        backgroundImage: `url(${Img1})`,
+                        backgroundImage: `url(${new7})`,
                       }}
                     ></div>
                   </div>
@@ -439,7 +454,7 @@ const Portfolio_Page: React.FC = () => {
                       style={{
                         borderRadius: "0",
                         height: "100%",
-                        backgroundImage: `url(${Img2})`,
+                        backgroundImage: `url(${new8})`,
                       }}
                     ></div>
                   </div>
@@ -449,7 +464,7 @@ const Portfolio_Page: React.FC = () => {
                       style={{
                         borderRadius: "0",
                         height: "220px",
-                        backgroundImage: `url(${Img3})`,
+                        backgroundImage: `url(${new9})`,
                       }}
                     ></div>
                     <div
@@ -457,7 +472,7 @@ const Portfolio_Page: React.FC = () => {
                       style={{
                         borderRadius: "0",
                         height: "220px",
-                        backgroundImage: `url(${Img4})`,
+                        backgroundImage: `url(${new10})`,
                       }}
                     ></div>
                   </div>
@@ -467,7 +482,7 @@ const Portfolio_Page: React.FC = () => {
                       style={{
                         borderRadius: "0",
                         height: "220px",
-                        backgroundImage: `url(${Img})`,
+                        backgroundImage: `url(${new11})`,
                       }}
                     ></div>
                     <div
@@ -475,7 +490,7 @@ const Portfolio_Page: React.FC = () => {
                       style={{
                         borderRadius: "0",
                         height: "220px",
-                        backgroundImage: `url(${Img1})`,
+                        backgroundImage: `url(${new12})`,
                       }}
                     ></div>
                   </div>
@@ -485,7 +500,7 @@ const Portfolio_Page: React.FC = () => {
                       style={{
                         borderRadius: "0",
                         height: "100%",
-                        backgroundImage: `url(${Img2})`,
+                        backgroundImage: `url(${new13})`,
                       }}
                     ></div>
                   </div>
@@ -495,7 +510,7 @@ const Portfolio_Page: React.FC = () => {
                       style={{
                         borderRadius: "0",
                         height: "220px",
-                        backgroundImage: `url(${Img3})`,
+                        backgroundImage: `url(${new14})`,
                       }}
                     ></div>
                     <div
@@ -503,7 +518,7 @@ const Portfolio_Page: React.FC = () => {
                       style={{
                         borderRadius: "0",
                         height: "220px",
-                        backgroundImage: `url(${Img4})`,
+                        backgroundImage: `url(${new15})`,
                       }}
                     ></div>
                   </div>
@@ -513,7 +528,7 @@ const Portfolio_Page: React.FC = () => {
                       style={{
                         borderRadius: "0",
                         height: "220px",
-                        backgroundImage: `url(${Img1})`,
+                        backgroundImage: `url(${new16})`,
                       }}
                     ></div>
                     <div
@@ -521,7 +536,7 @@ const Portfolio_Page: React.FC = () => {
                       style={{
                         borderRadius: "0",
                         height: "220px",
-                        backgroundImage: `url(${Img2})`,
+                        backgroundImage: `url(${new17})`,
                       }}
                     ></div>
                   </div>
@@ -531,7 +546,7 @@ const Portfolio_Page: React.FC = () => {
                       style={{
                         borderRadius: "0",
                         height: "100%",
-                        backgroundImage: `url(${Img3})`,
+                        backgroundImage: `url(${new18})`,
                       }}
                     ></div>
                   </div>
@@ -541,7 +556,7 @@ const Portfolio_Page: React.FC = () => {
                       style={{
                         borderRadius: "0",
                         height: "220px",
-                        backgroundImage: `url(${Img4})`,
+                        backgroundImage: `url(${new19})`,
                       }}
                     ></div>
                     <div
@@ -549,9 +564,70 @@ const Portfolio_Page: React.FC = () => {
                       style={{
                         borderRadius: "0",
                         height: "220px",
-                        backgroundImage: `url(${Img1})`,
+                        backgroundImage: `url(${new20})`,
                       }}
                     ></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div className="p-4 mt-5">
+            <div
+              id="carouselExampleSlidesOnly"
+              className="carousel slide"
+              data-bs-ride="carousel"
+            >
+              <div className="carousel-inner">
+                <div className="carousel-item active">
+                  <div style={{ height: "500px", borderRadius: "30px" }}>
+                    <img
+                      src={new1}
+                      className="d-block w-100 h-100 img-fluid"
+                      alt="..."
+                      style={{ objectFit: "cover", borderRadius: "30px" }}
+                    />
+                  </div>
+                </div>
+                <div className="carousel-item active">
+                  <div style={{ height: "500px", borderRadius: "30px" }}>
+                    <img
+                      src={new2}
+                      className="d-block w-100 h-100 img-fluid"
+                      alt="..."
+                      style={{ objectFit: "cover", borderRadius: "30px" }}
+                    />
+                  </div>
+                </div>
+                <div className="carousel-item active">
+                  <div style={{ height: "500px", borderRadius: "30px" }}>
+                    <img
+                      src={new3}
+                      className="d-block w-100 h-100 img-fluid"
+                      alt="..."
+                      style={{ objectFit: "cover", borderRadius: "30px" }}
+                    />
+                  </div>
+                </div>
+                <div className="carousel-item active">
+                  <div style={{ height: "500px", borderRadius: "30px" }}>
+                    <img
+                      src={new4}
+                      className="d-block w-100 h-100 img-fluid"
+                      alt="..."
+                      style={{ objectFit: "cover", borderRadius: "30px" }}
+                    />
+                  </div>
+                </div>
+                <div className="carousel-item active">
+                  <div style={{ height: "500px", borderRadius: "30px" }}>
+                    <img
+                      src={new5}
+                      className="d-block w-100 h-100 img-fluid"
+                      alt="..."
+                      style={{ objectFit: "cover", borderRadius: "30px" }}
+                    />
                   </div>
                 </div>
               </div>

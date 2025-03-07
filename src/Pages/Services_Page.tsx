@@ -30,11 +30,10 @@ const ServicesPage: React.FC<ServicesPageProps> = () => {
     const elementFour: HTMLElement[] =
       gsap.utils.toArray<HTMLElement>(".six_h1");
 
-    // Animate each element separately
     if (elements.length) {
       gsap.from(elements, {
         scrollTrigger: {
-          trigger: elements[0] as HTMLElement, // Ensure TypeScript recognizes this as an HTMLElement
+          trigger: elements[0] as HTMLElement,
           start: "top 80%",
           toggleActions: "play none none reverse",
         },

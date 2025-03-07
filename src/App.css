@@ -31,7 +31,7 @@
 }
 
 .logo_img {
-  width: 50px;
+  width: 150px;
 }
 
 .logo_img img {
@@ -181,7 +181,7 @@
 }
 
 .hero_text {
-  width: 70%;
+  width: 65%;
   color: var(--text-color);
   font-weight: 500;
   line-height: 57px;
@@ -1540,6 +1540,11 @@ footer {
 
   .bf {
     margin-top: 15px;
+  }
+
+  .contact_subtopic::after {
+    bottom: -30px !important;
+    left: 35%;
   }
 }
 
