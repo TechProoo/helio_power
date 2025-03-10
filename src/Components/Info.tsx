@@ -42,8 +42,8 @@ const Info = () => {
             <img src={Brand} className="" alt="" />
           </div>
         </div>
-        <div className="card_holder relative d-md-flex justify-content-center gap-4">
-          <div className="absolute inset-0 w-10 left-0 rounded-full display-md-none"></div>
+        <div className="card_holder relative d-md-flex justify-content-center ">
+          <div className="absolute hidden md:block inset-0 w-10 left-0 rounded-full display-md-none"></div>
           <Card
             topic="Efficient Solar Panels"
             body="Our solar panels deliver maximum efficiency ensuring you get the most

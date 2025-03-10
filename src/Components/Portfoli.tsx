@@ -17,19 +17,19 @@ const Portfoli = () => {
   useEffect(() => {
     ScrollReveal().reveal(".ch", {
       duration: 2400,
-      distance: "50px",
+      distance: "20px",
       origin: "left",
       delay: 200,
     });
     ScrollReveal().reveal(".us", {
       duration: 2400,
-      distance: "50px",
+      distance: "20px",
       origin: "right",
       delay: 500,
     });
     ScrollReveal().reveal(".ou", {
       duration: 2400,
-      distance: "50px",
+      distance: "20px",
       origin: "left",
       delay: 800,
     });
