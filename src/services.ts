@@ -12,6 +12,6 @@ export const services: string[] = [
   "Building and construction",
   "Real estate",
   "General merchandise",
-  "Training"
+  "Security surveillance cameras",
+  "Many more",
 ];
-

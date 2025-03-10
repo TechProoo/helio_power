@@ -320,7 +320,6 @@
   color: var(--bg-color-two);
 }
 
-
 .card:nth-child(3) {
   background-color: rgba(2, 0, 36, 1);
   background: linear-gradient(
@@ -1369,7 +1368,7 @@ footer {
     display: none;
   }
 
-  .contact_page_form_right  {
+  .contact_page_form_right {
     margin-top: 30px;
   }
 
@@ -1457,6 +1456,19 @@ footer {
   .services_active_two {
     margin-left: 30px;
     z-index: 1;
+  }
+
+  .services_intro_image {
+    width: 250px;
+    height: 250px;
+  }
+
+  .card_holder::after {
+    display: none;
+  }
+
+  .card_holder::before {
+    display: none;
   }
 
   .carousel_container {

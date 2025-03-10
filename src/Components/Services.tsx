@@ -47,11 +47,6 @@ const Services: React.FC = () => {
   return (
     <div className="services_section md:mt-8 pb-6 relative pt-5">
       <div className="blender"></div>
-      {/* <img
-        src={Rain}
-        className="absolute opacity-10 services_image_design"
-        alt=""
-      /> */}
       <div className="absolute left-1/2">
         <svg
           width="60"
@@ -82,48 +77,58 @@ const Services: React.FC = () => {
           </g>
         </svg>
       </div>
-      <div className="md:flex justify-between items-center w-11/12 m-auto">
-        <div className="services_left">
-          <div className="left_subhead">
-            <h3 className="ft_hd badge font-black text-black bg-secondary-subtle p-3">
-              Services
-            </h3>
+      <div>
+        <div className="md:flex justify-between items-center w-11/12 m-auto">
+          <div className="services_left">
+            <div className="left_subhead">
+              <h3 className="ft_hd badge font-black text-black bg-secondary-subtle p-3">
+                Services
+              </h3>
+            </div>
+            <div className="left_head mt-4">
+              <h1 className="text-5xl wpa">
+                We Provide Awesome <br /> Services
+              </h1>
+            </div>
+            <div className="left_bottom">
+              <p className="md:w-10/12 left_text mt-6">
+                We are dedicated to providing exceptional all-around service,
+                leveraging our expertise, hard work, and meticulous attention to
+                detail to handle every aspect of your needs, including solar
+                installation, electrical work, plumbing, and more.
+              </p>
+            </div>
+            <img
+              className="w-20 absolute left-52 top-1\240 hh"
+              src={Box}
+              alt=""
+            />
           </div>
-          <div className="left_head mt-4">
-            <h1 className="text-5xl wpa">
-              We Provide Awesome <br /> Services
-            </h1>
-          </div>
-          <div className="left_bottom">
-            <p className="md:w-10/12 left_text mt-6">
-              We are dedicated to providing exceptional all-around service,
-              leveraging our expertise, hard work, and meticulous attention to
-              detail to handle every aspect of your needs, including solar
-              installation, electrical work, plumbing, and more.
-            </p>
-          </div>
-          <img
-            className="w-20 absolute left-52 top-1\240 hh"
-            src={Box}
-            alt=""
-          />
-        </div>
-        <div className="services_right">
-          <div ref={sectionRef} className="carousel_container me-5 relative">
-            <div className="absolute services_blur"></div>
-            <div className="d-flex flex-column  gap-5">
-              {services.map((service, index) => (
-                <div
-                  key={index}
-                  className={`carousel_card ${
-                    index % 2 === 0 ? "services_active" : "services_active_two"
-                  }`}
-                >
-                  <CardTwo service={service} />
-                </div>
-              ))}
+          <div className="services_right">
+            <div ref={sectionRef} className="carousel_container me-5 relative">
+              <div className="absolute services_blur"></div>
+              <div className="d-flex flex-column  gap-5">
+                {services.map((service, index) => (
+                  <div
+                    key={index}
+                    className={`carousel_card ${
+                      index % 2 === 0
+                        ? "services_active"
+                        : "services_active_two"
+                    }`}
+                  >
+                    <CardTwo service={service} />
+                  </div>
+                ))}
+              </div>
             </div>
           </div>
+        </div>
+        <div className="text-center mt-5 pt-5 px-3">
+          <h1 style={{color: "#ffa500"}} className="text-4xl ft_hd md:text-6xl font-extrabold text-gray-900 dark:text-white">
+            IT'S{" "}
+            <span className="text-gray-600 dark:text-gray-400">ALL ABOUT YOU</span>
+          </h1>
         </div>
       </div>
     </div>

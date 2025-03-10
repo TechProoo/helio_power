@@ -38,11 +38,11 @@ const Info = () => {
             detail to handle every aspect of your needs, including solar
             installation, electrical work, plumbing, and more.
           </p>
-          <div className="info_brand_image m-auto absolute left-20">
+          <div className="info_brand_image hidden md:block m-auto absolute left-20">
             <img src={Brand} className="" alt="" />
           </div>
         </div>
-        <div className="card_holder relative d-md-flex justify-content- gap-4">
+        <div className="card_holder relative d-md-flex justify-content-center gap-4">
           <div className="absolute inset-0 w-10 left-0 rounded-full display-md-none"></div>
           <Card
             topic="Efficient Solar Panels"
@@ -60,7 +60,7 @@ const Info = () => {
         </div>
       </div>
       <div className="services_intro text-center mt-20">
-        <h1 className="text-6xl font-bold ask_services">
+        <h1 className="md:text-6xl text-4xl font-bold ask_services">
           WHAT SERVICES DO YOU NEED?
         </h1>
         <div className="services_intro_image mx-auto mt-3">
