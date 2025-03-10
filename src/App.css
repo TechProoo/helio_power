@@ -1463,6 +1463,11 @@ footer {
     height: 250px;
   }
 
+  .card_holder {
+    margin-top: 0;
+    padding-top: 0;
+  }
+
   .card_holder::after {
     display: none;
   }

@@ -41,7 +41,7 @@ const Card: React.FC<cardProp> = ({ topic, body }) => {
   return (
     <div className="card ">
       <div className="card_inner m-2">
-        <div className="card_icon_cover d-flex flex-wrap align-items-center justify-content-center w-14 h-14 p-1.5">
+        <div className="card_icon_cover d-flex align-items-center justify-content-center w-14 h-14 p-1.5">
           <FaSolarPanel // Use the React icon here
             style={{ width: "30px", height: "30px", color: "#FFA500" }} // Customize the icon's size and color
           />
@@ -52,7 +52,7 @@ const Card: React.FC<cardProp> = ({ topic, body }) => {
             className="text-lg font-bold text-white ft_hd"
             style={{width: "100%", textWrap: "wrap"}}
           >
-          {topic}
+            {topic}
           </h1>
         </div>
         <div className="card_body mt-3">

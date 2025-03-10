@@ -38,7 +38,7 @@ const Info = () => {
             detail to handle every aspect of your needs, including solar
             installation, electrical work, plumbing, and more.
           </p>
-          <div className="info_brand_image hidden md:block m-auto absolute left-20">
+          <div className="info_brand_image hidden md:block m-auto absolute md:left-20">
             <img src={Brand} className="" alt="" />
           </div>
         </div>
