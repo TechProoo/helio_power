@@ -1,50 +1,35 @@
-# React + TypeScript + Vite
+# ⚡ Helio Power – Solar Solutions for a Sustainable Future ☀️  
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+### 🌍 Clean Energy | Sustainable Solutions | Smart Power  
 
-Currently, two official plugins are available:
+Welcome to **Helio Power**, a business dedicated to providing top-tier solar energy solutions. Our goal is to make renewable energy **affordable, accessible, and efficient** for homes and businesses.  
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Live Demo  
+🔗 [Visit Helio Power](https://helio-power.netlify.app/)  
 
-## Expanding the ESLint configuration
+## 🔆 Why Choose Helio Power?  
+✅ **Eco-Friendly** – Reduce your carbon footprint with sustainable solar energy.  
+✅ **Cost-Effective** – Save money on electricity bills with long-term energy solutions.  
+✅ **Reliable & Durable** – High-quality solar panels designed for maximum efficiency.  
+✅ **Custom Solutions** – Tailored solar power systems to fit your needs.  
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+## 🛠 Tech Stack  
+- **Frontend:** React, TypeScript, Tailwind CSS, GSAP  
+- **UI/UX:** Modern, responsive, and mobile-friendly design  
+- **Hosting:** Netlify  
 
-- Configure the top-level `parserOptions` property like this:
+## 💡 Features  
+🔹 Sleek and modern **business portfolio website**  
+🔹 Detailed breakdown of **solar energy benefits**  
+🔹 Responsive and **mobile-friendly** design  
+🔹 Contact form for **customer inquiries**  
+🔹 Smooth animations and UI interactions  
 
-```js
-export default tseslint.config({
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
-```
+## 📞 Contact Us  
+🌍 Website: [Helio Power](https://helio-power.netlify.app/)  
+🐦 Twitter: [@lasco_money](https://twitter.com/lasco_money)  
+📸 Instagram: [@tech_pro80](https://instagram.com/tech_pro80)  
 
-- Replace `tseslint.configs.recommended` to `tseslint.configs.recommendedTypeChecked` or `tseslint.configs.strictTypeChecked`
-- Optionally add `...tseslint.configs.stylisticTypeChecked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and update the config:
+---
 
-```js
-// eslint.config.js
-import react from 'eslint-plugin-react'
-
-export default tseslint.config({
-  // Set the react version
-  settings: { react: { version: '18.3' } },
-  plugins: {
-    // Add the react plugin
-    react,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended rules
-    ...react.configs.recommended.rules,
-    ...react.configs['jsx-runtime'].rules,
-  },
-})
-```
+🔥 **Helio Power is lighting the way to a greener future!** 🌱⚡  
